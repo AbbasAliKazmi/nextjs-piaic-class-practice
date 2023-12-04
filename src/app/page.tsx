@@ -1,13 +1,15 @@
 import Navbar from "./navbar/page";
+import Header from "./header/page";
 
 export default function Home() {
   return (
-    //  <Navbar/>
     <div>
+      <Navbar/>
       <section
         id="about"
         className="text-white h-screen bg-black text-center flex">
-        <h1 className="m-auto font-waterfall text-7xl text-purple-600 font-bold">Hero</h1>
+        
+        <Header/>
       </section>
       <section
         id="blog"
