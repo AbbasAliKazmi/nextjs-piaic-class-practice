@@ -1,20 +1,21 @@
 import Navbar from "./navbar/page";
 import Header from "./header/page";
+import Intro from "./intro/page";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <Navbar/>
       <section
         id="about"
-        className="text-white h-screen bg-black text-center flex">
+        className="text-white h-screen bg-black text-center flex ">
         
         <Header/>
       </section>
       <section
         id="blog"
         className="text-white h-screen bg-black text-center flex">
-        <h1 className="m-auto font-waterfall text-7xl text-purple-600 font-bold">Blog</h1>
+        <Intro/>
       </section>
       <section
         id="contact"
