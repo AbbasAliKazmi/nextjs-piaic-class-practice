@@ -8,13 +8,13 @@ export default function Header() {
         <div className="bg-slate-300 text-white p-8 flex flex-col md:flex-row items-center w-full">
             {/* Text Box Section */}
             <div className="md:w-1/2 md:ml-4">
-                <h1 className="text-4xl font-bold mb-4">The Palm Wedding Planners</h1>
-                <p className="mb-4">Unforgettable Weddings, Designed with Love</p>
+                <h1 className="text-4xl font-bold mb-4 italic text-black">The Palm Wedding Planners</h1>
+                <p className="mb-4 italic text-black">Unforgettable Weddings, Designed with Love</p>
                 <div className="flex space-x-4 justify-center">
-                    <button className="bg-[#080808] text-white px-4 py-2 rounded-md">
+                    <button className="bg-[#080808] text-white px-4 py-2 rounded-md transform transition-transform hover:scale-110">
                         Plan Wedding
                     </button>
-                    <button className="bg-cyan-600 text-white px-4 py-2 rounded-md">
+                    <button className="bg-cyan-600 text-white px-4 py-2 rounded-md transform transition-transform hover:scale-110">
                         Check Work
                     </button>
                 </div>

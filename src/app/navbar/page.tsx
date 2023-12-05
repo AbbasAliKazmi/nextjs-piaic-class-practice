@@ -19,7 +19,7 @@ export default function Navbar() {
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
                 {/* LOGO */}
                 <Link href="/">
-                  <h2 className="text-2xl text-cyan-600 font-bold ">The Palm</h2>
+                  <h2 className="text-2xl text-cyan-600 font-bold transform transition-transform hover:scale-110">The Palm</h2>
                 </Link>
                 {/* HAMBURGER BUTTON FOR MOBILE */}
                 <div className="md:hidden">
