@@ -1,5 +1,3 @@
-
-
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -26,8 +24,8 @@ export default function Header() {
                     className="w-full h-auto rounded-md shadow-lg"
                     src="/bg-image.jpg" 
                     alt="Banner Image"
-                    width={100}
-                    height={100}
+                    width={500}  // Adjust this value based on your image dimensions
+                    height={300} // Adjust this value based on your image dimensions
                 />
             </div>
         </div>

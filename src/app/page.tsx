@@ -1,6 +1,7 @@
 import Navbar from "./navbar/page";
 import Header from "./header/page";
 import Intro from "./intro/page";
+import Gallery_carousal from "./gallery_carousal/page";
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
       <section
         id="contact"
         className="text-white h-screen bg-black text-center flex">
-        <h1 className="m-auto font-waterfall text-7xl text-purple-600 font-bold">Contact</h1>
+        <Gallery_carousal/>
       </section>
       <section
         id="projects"
