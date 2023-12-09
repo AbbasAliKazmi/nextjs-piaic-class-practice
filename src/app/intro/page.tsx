@@ -7,7 +7,7 @@
 export default function Intro() {
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className="text-center text-black bg-slate-200 mx-48 w-[55] h-[120] p-11">
+      <div className="text-center text-black bg-slate-300 mx-48 w-[55] h-[120] p-11 shadow-xl">
         <h1 className="font-bold text-4xl text-cyan-600 mb-4">Your Dream Starts Here</h1>
         <p className="text-lg">
         Looking for a wedding event planner in Karachi or a dedicated birthday event 

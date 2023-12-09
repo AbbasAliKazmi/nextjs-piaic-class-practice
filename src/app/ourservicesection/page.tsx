@@ -23,7 +23,7 @@ export default function Ourservicesec(){
                     width={390}
                     height={470}
                     alt="Picture setup"
-                    className="absolute left-0 bottom-0"
+                    className="absolute left-0 bottom-0 shadow-lg"
                 />
 
                 {/* Second Image (Top Right, Slightly Behind) */}
@@ -32,7 +32,7 @@ export default function Ourservicesec(){
                     width={490}
                     height={420}
                     alt="Picture setup"
-                    className="absolute top-0 right-0 -mt-30 -mr-30"
+                    className="absolute top-0 right-0 -mt-30 -mr-30 shadow-lg"
                 />
             </div>
         </div>
