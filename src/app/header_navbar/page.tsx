@@ -1,24 +1,26 @@
 "use client";
 
-import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState } from 'react';
 
-export default function Navbar() {
-  const [navbar, setNavbar] = useState(false);
 
-  const toggleNavbar = () => {
-    setNavbar(!navbar);
-  };
+export default function Header() {
+    const [navbar, setNavbar] = useState(false);
 
-  return (
-        <div>
-        <nav className="w-full bg-[#080808] fixed top-0 left-0 right-0 z-10 rounded-full mx-4">
+    const toggleNavbar = () => {
+      setNavbar(!navbar);
+    };
+    
+    return (
+    <div className="bg-cover bg-center bg-no-repeat relative p-8 flex flex-col md:flex-row items-center w-full" style={{ backgroundImage: "url('/bg-image2.jpg')" }}>
+     <div>
+        <nav className="w-full  fixed top-0 left-0 right-0 z-10">
           <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
             <div>
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
                 {/* LOGO */}
-                <Link href="/">
+                <Link href="/logo.svg">
                   <h2 className="text-2xl text-cyan-600 font-bold transform transition-transform hover:scale-110">The Palm</h2>
                 </Link>
                 {/* HAMBURGER BUTTON FOR MOBILE */}
@@ -75,5 +77,20 @@ export default function Navbar() {
           </div>
         </nav>
       </div>
+    {/* Text Box Section */}
+    <div className="md:w-1/2 md:ml-4">
+        <h1 className="text-6xl font-bold mb-4 italic  text-black">The Palm Wedding Planners</h1>
+        <p className="mb-4 italic text-2xl text-black">Unforgettable Weddings, Designed with Love</p>
+        <div className="flex space-x-4 justify-center">
+            <button className="bg-[#080808] text-white px-4 py-2 rounded-md transform transition-transform hover:scale-110">
+                Plan Wedding
+            </button>
+            <button className="bg-cyan-600 text-white px-4 py-2 rounded-md transform transition-transform hover:scale-110">
+                Check Work
+            </button>
+        </div>
+    </div>
+</div>
+
     );
-  }
+};
