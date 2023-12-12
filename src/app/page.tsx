@@ -3,6 +3,7 @@ import Intro from "./intro/page";
 import Gallery_carousal from "./gallery_carousal/page";
 import Ourservicesec from "./ourservicesection/page";
 import Gallery from "./completeGallery/page";
+import Servicescards from "./servicescards/page";
 
 export default function Home() {
   return (
@@ -33,6 +34,11 @@ export default function Home() {
         className="text-white h-screen text-center flex">
         <Gallery/>
       </section>  
+      <section
+        id="Servicescards"
+        className="text-white h-screen text-center flex">
+        <Servicescards/>
+      </section> 
     </div>
   )
 }

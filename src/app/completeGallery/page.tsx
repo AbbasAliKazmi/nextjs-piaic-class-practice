@@ -13,7 +13,7 @@ export default function Gallery() {
                     width={600}
                     height={400}
                 />
-                <h1 className="absolute text-5xl font-bold text-cyan-700 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
+                <h1 className="absolute text-5xl font-bold text-cyan-500 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
                     Wedding Event
                 </h1>
             </div>
@@ -25,7 +25,7 @@ export default function Gallery() {
                     width={200}
                     height={400}
                 />
-                <h1 className="absolute text-5xl font-bold text-cyan-700 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
+                <h1 className="absolute text-5xl font-bold text-cyan-500 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
                     Corporate Event
                 </h1>
             </div>
@@ -38,7 +38,7 @@ export default function Gallery() {
                     width={200}
                     height={400}
                 />
-                <h1 className="absolute text-5xl font-bold text-cyan-700 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
+                <h1 className="absolute text-5xl font-bold text-cyan-500 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
                     Birthday Event
                 </h1>
             </div>
@@ -50,7 +50,7 @@ export default function Gallery() {
                     width={200}
                     height={400}
                 />
-                <h1 className="absolute text-5xl font-bold text-cyan-700 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
+                <h1 className="absolute text-5xl font-bold text-cyan-500 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
                     Private Event
                 </h1>
             </div>
