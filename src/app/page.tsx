@@ -4,6 +4,7 @@ import Gallery_carousal from "./gallery_carousal/page";
 import Ourservicesec from "./ourservicesection/page";
 import Gallery from "./completeGallery/page";
 import Servicescards from "./servicescards/page";
+import Clientcounter from "./clientcounter/page";
 
 export default function Home() {
   return (
@@ -36,9 +37,15 @@ export default function Home() {
       </section>  
       <section
         id="Servicescards"
-        className="text-white h-screen text-center flex">
+        className="text-white h-screen text-center flex -m-28">
         <Servicescards/>
+      </section>
+      <section
+        id="Clientcounter"
+        className="text-white h-screen text-center flex -m-28">
+        <Clientcounter/>
       </section> 
     </div>
   )
 }
+
