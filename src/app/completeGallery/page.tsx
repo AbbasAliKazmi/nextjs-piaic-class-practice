@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Gallery() {
     return (
-        <div className='grid grid-cols-4  bg-blue-200 w-screen border border-solid m-1 h-screen'>
+        <div className='grid grid-cols-4  bg-blue-200 w-screen border border-solid m-1 md:h-screen h-full'>
             <div className='relative group'>
                 <Image
                     className="w-full rounded-md shadow-lg col-span-1 h-[75%] object-fill hover:scale-x-110 transition duration-500 ease-in-out transform hover:-translate-y-1  hover:z-50 group-hover:brightness-50"
@@ -13,7 +13,7 @@ export default function Gallery() {
                     width={600}
                     height={400}
                 />
-                <h1 className="absolute text-5xl font-bold text-cyan-500 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
+                <h1 className="absolute text-xl md:text-5xl font-bold text-cyan-500 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
                     Wedding Event
                 </h1>
             </div>
@@ -25,7 +25,7 @@ export default function Gallery() {
                     width={200}
                     height={400}
                 />
-                <h1 className="absolute text-5xl font-bold text-cyan-500 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
+                <h1 className="absolute text-xl md:text-5xl font-bold text-cyan-500 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
                     Corporate Event
                 </h1>
             </div>
@@ -38,7 +38,7 @@ export default function Gallery() {
                     width={200}
                     height={400}
                 />
-                <h1 className="absolute text-5xl font-bold text-cyan-500 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
+                <h1 className="absolute text-xl md:text-5xl font-bold text-cyan-500 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
                     Birthday Event
                 </h1>
             </div>
@@ -50,7 +50,7 @@ export default function Gallery() {
                     width={200}
                     height={400}
                 />
-                <h1 className="absolute text-5xl font-bold text-cyan-500 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
+                <h1 className="absolute text-xl md:text-5xl font-bold text-cyan-500 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden group-hover:block">
                     Private Event
                 </h1>
             </div>

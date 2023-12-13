@@ -11,7 +11,7 @@ export default function Home() {
     <div className="">
       <section
         id="about"
-        className="text-white h-screen bg-black text-center flex ">
+        className="text-white h-full md:h-[75%] bg-black text-center flex ">
         
         <Header/>
       </section>
@@ -27,17 +27,17 @@ export default function Home() {
       </section>
       <section
         id="projects"
-        className="text-white h-screen bg-black text-center flex">
+        className="text-white md:h-screen h-[70%] bg-black text-center flex">
         <Ourservicesec/>
       </section>
       <section
         id="gallery"
-        className="text-white h-screen text-center flex">
+        className="text-white md:h-screen h-full text-center flex">
         <Gallery/>
       </section>  
       <section
         id="Servicescards"
-        className="text-white h-screen text-center flex -m-28">
+        className="text-white h-screen text-center flex md:-m-28">
         <Servicescards/>
       </section>
       <section
