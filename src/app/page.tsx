@@ -5,6 +5,7 @@ import Ourservicesec from "./ourservicesection/page";
 import Gallery from "./completeGallery/page";
 import Servicescards from "./servicescards/page";
 import Clientcounter from "./clientcounter/page";
+import AccordSec from "./accordion/page";
 
 export default function Home() {
   return (
@@ -40,11 +41,17 @@ export default function Home() {
         className="text-white h-screen text-center flex md:-m-28">
         <Servicescards/>
       </section>
-      <section
+      {/* <section
         id="Clientcounter"
         className="text-white h-screen text-center flex -m-28">
         <Clientcounter/>
+      </section>  */}
+      <section
+        id="AccordSec"
+        className="text-white bg-slate-500 h-screen text-center flex -m-28">
+        <AccordSec/>
       </section> 
+      
     </div>
   )
 }
