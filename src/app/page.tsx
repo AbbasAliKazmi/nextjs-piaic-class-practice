@@ -41,16 +41,17 @@ export default function Home() {
         className="text-white h-screen text-center flex md:-m-28">
         <Servicescards/>
       </section>
-      {/* <section
-        id="Clientcounter"
-        className="text-white h-screen text-center flex -m-28">
-        <Clientcounter/>
-      </section>  */}
       <section
         id="AccordSec"
-        className="text-white bg-slate-500 h-screen text-center flex -m-28">
+        className="text-white  h-screen text-center flex">
         <AccordSec/>
       </section> 
+      <section
+        id="Clientcounter"
+        className="text-white h-[50%] text-center flex -m-28">
+        <Clientcounter/>
+      </section> 
+      
       
     </div>
   )
