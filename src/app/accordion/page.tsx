@@ -7,7 +7,8 @@ import {
 
 export default function AccordSec() {
     return (
-        <div className="p-20 text-2xl bg-slate-300 w-screen md:h-96 h-[75%]  -mt-[17%] text-black ">
+        <div className="p-20 text-2xl bg-slate-300 w-screen md:h-96 h-[95%]  -mt-[17%] text-black ">
+            <h1 className="text-cyan-500 text-6xl font-bold"> FAQ's</h1>
          <Accordion type="single" collapsible>
             <AccordionItem value="item-1">
                 <AccordionTrigger className="font-bold"> What services do you offer?</AccordionTrigger>

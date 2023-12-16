@@ -37,7 +37,7 @@ export default function ClientCounter() {
 
   return (
     
-    <div className="flex  w-full justify-around py-6 pl-2 pr-2 -mt-64">
+    <div className="flex  w-full justify-around py-6 pl-2 pr-2 md:-mt-[22%] -mt-12">
       <CounterBox title="Happy Clients" counter={clients} />
       <CounterBox title="Events" counter={events} />
       <CounterBox title="Team Members" counter={teamMembers} />
