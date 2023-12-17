@@ -7,6 +7,8 @@ import Servicescards from "./servicescards/page";
 import Clientcounter from "./clientcounter/page";
 import AccordSec from "./accordion/page";
 import OurTeam from "./ourteam/page";
+import Blogs from "./latestblogs/page";
+import Form from "./form/page";
 
 export default function Home() {
   return (
@@ -56,6 +58,16 @@ export default function Home() {
         id="teamsec"
         className="text-white  text-center  flex  ">
         <OurTeam/>
+      </section>
+      <section
+        id="blogs"
+        className="text-white  text-center  flex  ">
+        <Blogs/>
+      </section>
+      <section
+        id="form"
+        className="text-white  text-center  flex  ">
+        <Form/>
       </section>
       
     </div>
