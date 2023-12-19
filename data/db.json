@@ -1,0 +1,67 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "eventName": "Birthday Party",
+            "title": "John's 30th Birthday Bash",
+            "time": "2022-09-15T20:00:00",
+            "description": "Join us to celebrate John's milestone birthday with a night of fun and surprises!"
+        },
+        {
+            "id": 2,
+            "eventName": "Wedding",
+            "title": "Sarah and Michael's Wedding",
+            "time": "2022-10-22T14:30:00",
+            "description": "Witness the union of Sarah and Michael as they exchange vows and celebrate their love."
+        },
+        {
+            "id": 3,
+            "eventName": "Conference",
+            "title": "Tech Summit 2022",
+            "time": "2022-11-10T09:00:00",
+            "description": "Join industry experts and thought leaders for a day of insightful talks and networking opportunities."
+        },
+        {
+            "id": 4,
+            "eventName": "Music Festival",
+            "title": "Summer Jam Fest",
+            "time": "2022-07-08T16:00:00",
+            "description": "Experience the hottest music acts of the season at the Summer Jam Fest. Get ready to dance the night away!"
+        },
+        {
+            "id": 5,
+            "eventName": "Charity Gala",
+            "title": "Hope for All",
+            "time": "2022-12-05T18:30:00",
+            "description": "Support a worthy cause at the Hope for All charity gala. Together, we can make a difference."
+        },
+        {
+            "id": 6,
+            "eventName": "Workshop",
+            "title": "Introduction to Web Development",
+            "time": "2022-09-30T10:00:00",
+            "description": "Learn the basics of web development and kickstart your journey to becoming a web developer."
+        },
+        {
+            "id": 7,
+            "eventName": "Art Exhibition",
+            "title": "Colors of Expression",
+            "time": "2022-08-20T12:00:00",
+            "description": "Immerse yourself in a world of art and creativity at the Colors of Expression art exhibition."
+        },
+        {
+            "id": 8,
+            "eventName": "Sports Tournament",
+            "title": "Summer Games 2022",
+            "time": "2022-07-16T09:00:00",
+            "description": "Cheer for your favorite athletes as they compete in various sports disciplines at the Summer Games."
+        },
+        {
+            "id": 9,
+            "eventName": "Networking Event",
+            "title": "Business Connect",
+            "time": "2022-11-05T18:00:00",
+            "description": "Expand your professional network and forge valuable connections at the Business Connect networking event."
+        }
+    ]
+}
