@@ -43,7 +43,7 @@ export default function OurTeam() {
                 <h1 className='md:text-3xl text-2xl font-bold text-black'>Manager</h1>
                 <h2 className='md:text-xl text-lg font-bold text-black'>Sara Jones</h2>
                 <p className='md:text-lg font-semibold text-black p-2'>
-                Sara Jones ensures smooth events, a detail-lover, making sure that every occasion feels special and unique                </p>
+                Sara Jones ensures smooth events, a detail-lover,small arrangements, making sure that every occasion feels special and unique                </p>
             </div>
             <div className="col-span-1  md:w-1/4 w-2/2">
             <Image
